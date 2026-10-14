@@ -1,3 +1,6 @@
-readme
+# readme
 
-portafolio emmanuel
+## portafolio emmanuel
+## incluye tarjetas
+## incluye contacto
+## incluye descripcion breve
