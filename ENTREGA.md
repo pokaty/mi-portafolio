@@ -2,9 +2,9 @@
 
 Completa los datos y haz commit de este archivo.
 
-- **Nombre completo:** TODO
-- **Usuario de GitHub:** TODO
-- **Repositorio:** https://github.com/TODO/mi-portafolio
-- **Tablero (GitHub Projects):** TODO
+- **Nombre completo:** Emmanuel Grajales Molina
+- **Usuario de GitHub:** Emmanuel Grajales Molina     pokaty
+- **Repositorio:** https://github.com/pokaty/mi-portafolio
+- **Tablero (GitHub Projects):** https://github.com/users/pokaty/projects/1
   <!-- Pega la URL del tablero. Se ve así: https://github.com/users/tu-usuario/projects/1 -->
-- **Issue del bug (reto):** #
+- **Issue del bug (reto):** #7
