@@ -82,13 +82,31 @@
       </div>
     </section>
 
+
     <section id="contacto" class="seccion">
       <h2>Contacto</h2>
+      <p>Completa el formulario para enviarme un mensaje.</p>
+
+      <form id="formulario-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+        <p id="respuesta-formulario" role="status"></p>
+      </form>
+
       <ul class="contacto">
-        <li>emanuelpracticagit@gmail.com</li>
-        <li>3244242325</li>
+        <li>Correo: <a href="mailto:emanuelpracticagit@gmail.com">emanuelpracticagit@gmail.com</a></li>
+        <li>Teléfono: 3244242325</li>
       </ul>
     </section>
+
 
   </main>
 
