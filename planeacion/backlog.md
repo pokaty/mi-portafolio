@@ -25,7 +25,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que estoy en la parte de arriba, cuando hago clic en "Proyectos", entonces la página baja hasta la sección de proyectos.
 - [ ] Dado que hice scroll hasta el final, cuando miro la parte superior de la pantalla, entonces el menú sigue visible.
 
-**Issue:** #
+**Issue:** #2
 
 ---
 
@@ -41,7 +41,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que estoy en la sección "Habilidades", cuando la leo, entonces las habilidades están agrupadas en "Frontend" y "Herramientas".
 - [ ] Dado que estoy en el menú, cuando hago clic en "Habilidades", entonces la página baja hasta esa sección.
 
-**Issue:** #
+**Issue:** #3
 
 ---
 
@@ -57,7 +57,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que me desplazo hacia abajo, cuando miro el pie de pagina, entonces veo el contacto del aprendiz
 - [ ]  Dado que estoy en cualquier parte de la pagina, cuando miro el pie de pagina, entonces encuentro los datos del aprendiz para poder ser contacto
 
-**Issue:** #
+**Issue:** #4
 
 ---
 
@@ -73,7 +73,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que veo un proyecto, cuando le doy click al enlace, entonces se abre una nueva pestaña con el repositorio de github
 - [ ] Dado que le di click a un enlace, cuando se abre la pestaña nueva, entonces se puede visualizar el codigo
 
-**Issue:** #
+**Issue:** #5
 
 ---
 
@@ -89,7 +89,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que el usuario utiliza una pantalla de menos de 600 px, cuando visualiza las tres tarjetas del portafolio, entonces estas se organizan verticalmente para facilitar su lectura.
 - [ ] Dado que el usuario accede desde un celular, cuando navega por el portafolio, entonces los textos, las imágenes y los botones se ajustan al ancho de la pantalla sin desbordarse.
 
-**Issue:** #
+**Issue:** #6
 
 ---
 
@@ -105,4 +105,4 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ]Dado que el visitante deja campos obligatorios vacíos, cuando intenta enviar el formulario, entonces el sistema muestra un aviso indicando qué campos debe completar.
 - [ ] Dado que el visitante ingresa un correo electrónico inválido, cuando intenta enviar el formulario, entonces el sistema muestra un mensaje de error y solicita corregirlo.
 
-**Issue:** #
+**Issue:** #7
