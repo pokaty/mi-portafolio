@@ -14,10 +14,22 @@
 body { font-family: system-ui, Arial, sans-serif; background: var(--fondo); color: var(--texto); line-height: 1.6; }
 a { color: var(--acento); }
 .hero { min-height: 60vh; padding: 1.5rem 8%; display: flex; flex-direction: column; }
-.nav { display: flex; justify-content: space-between; align-items: center; }
-.nav ul { display: flex; gap: 1.5rem; list-style: none; }
-.nav a { color: var(--texto); text-decoration: none; }
-.nav a:hover { color: var(--acento); }
+.nav { display: flex; justify-content: space-between; align-items: center; position: sticky; }
+.nav ul {
+position: sticky; /* se queda pegado arriba al hacer scroll */
+top: 0;
+z-index: 10;
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+background: #ffffff;
+border-bottom: 1px solid #d0d7de;
+padding: .8rem 1rem;
+}
+
+.nav a { color: #24292f; font-weight: bold; text-decoration: none; }
+html { scroll-behavior: smooth; }
+.nav a:hover { color: var(--acento); position: sticky; }
 .logo { font-family: monospace; font-weight: bold; color: var(--verde); }
 .hero-texto { margin: auto 0; }
 .saludo { color: var(--suave); }
@@ -33,3 +45,4 @@ a { color: var(--acento); }
 .etiquetas li { font-size: .8rem; padding: .15rem .6rem; border-radius: 999px; background: rgba(240, 80, 50, .15); color: var(--acento); }
 .contacto { list-style: none; }
 .footer { text-align: center; padding: 2rem; color: var(--suave); font-size: .9rem; }
+
