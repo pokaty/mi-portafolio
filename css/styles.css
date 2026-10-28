@@ -1,7 +1,4 @@
-/* ==========================================================
-   Estilos del portafolio — ya vienen listos.
-   No necesitas modificarlos para la actividad.
-   ========================================================== */
+
 :root {
   --fondo: #0f1419;
   --tarjeta: #1a2129;
@@ -46,3 +43,12 @@ html { scroll-behavior: smooth; }
 .contacto { list-style: none; }
 .footer { text-align: center; padding: 2rem; color: var(--suave); font-size: .9rem; }
 
+
+.habilidades {
+  margin-bottom: 1.5rem;
+}
+
+#habilidades h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
