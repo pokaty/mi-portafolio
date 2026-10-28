@@ -53,8 +53,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces -->
-- [ ] TODO
+- [ ] Dado que abro el portafolio, cuando miro a la parte inferior, entonces veo un pie de pagina con datos del aprendiz
+- [ ] Dado que me desplazo hacia abajo, cuando miro el pie de pagina, entonces veo el contacto del aprendiz
+- [ ]  Dado que estoy en cualquier parte de la pagina, cuando miro el pie de pagina, entonces encuentro los datos del aprendiz para poder ser contacto
 
 **Issue:** #
 
@@ -68,9 +69,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿el enlace abre en una pestaña nueva? ¿Qué texto muestra? -->
-- [ ] TODO
+- [ ] Dado que estoy viendo los proyectos, cuando me interesa uno, entonces tiene un enlace que me dirige a su repositorio en github
+- [ ] Dado que veo un proyecto, cuando le doy click al enlace, entonces se abre una nueva pestaña con el repositorio de github
+- [ ] Dado que le di click a un enlace, cuando se abre la pestaña nueva, entonces se puede visualizar el codigo
 
 **Issue:** #
 
@@ -84,28 +85,24 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿qué pasa con las 3 tarjetas en una pantalla de menos de 600 px? -->
-- [ ] TODO
+- [ ] Dado que el usuario esta en un dispositivo celular, cuando entra a ver el portafolio, entonces la informacion es legible sin necesidad de hacer zoom ni scroll horizontal
+- [ ] Dado que el usuario utiliza una pantalla de menos de 600 px, cuando visualiza las tres tarjetas del portafolio, entonces estas se organizan verticalmente para facilitar su lectura.
+- [ ] Dado que el usuario accede desde un celular, cuando navega por el portafolio, entonces los textos, las imágenes y los botones se ajustan al ancho de la pantalla sin desbordarse.
 
 **Issue:** #
 
 ---
 
-## HU-06 · (RETO) Escribe tu propia historia
+## HU-06 · Formulario de contacto
 
-<!-- TODO (RETO): reemplaza el título y escribe tu propia historia de usuario.
-     Debe tener: Historia (Como / quiero / para), Etiquetas, Estimación,
-     mínimo 3 criterios Dado / cuando / entonces y el número de su issue.
-     Ideas: botón "volver arriba", modo oscuro, descargar hoja de vida,
-     formulario de contacto, foto de perfil, sección de estudios. -->
+**Historia:** Como visitante, quiero enviar un mensaje mediante un formulario de contacto, para comunicarme con el propietario del portafolio.
 
-**Historia:** TODO
-
-**Etiquetas:** TODO · **Estimación:** TODO
+**Etiquetas:** historia, frontend, prioridad-alta · **Estimación:** M
 
 **Criterios de aceptación:**
 
-- [ ] TODO
+- [ ] Dado que el visitante está en el portafolio, cuando completa los campos obligatorios y envía el formulario, entonces el sistema confirma que el mensaje fue enviado correctamente.
+- [ ]Dado que el visitante deja campos obligatorios vacíos, cuando intenta enviar el formulario, entonces el sistema muestra un aviso indicando qué campos debe completar.
+- [ ] Dado que el visitante ingresa un correo electrónico inválido, cuando intenta enviar el formulario, entonces el sistema muestra un mensaje de error y solicita corregirlo.
 
 **Issue:** #
