@@ -52,3 +52,21 @@ html { scroll-behavior: smooth; }
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
+
+
+.redes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.redes a {
+  text-decoration: none;
+}
+
+.redes a:hover {
+  color: var(--verde);
+}
+
